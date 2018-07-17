@@ -19,7 +19,11 @@ public class Import {
 		 * TIPOS PRIMITIVOS INTEIROS
 		 */
 
+<<<<<<< HEAD
 		byte b = 120;
+=======
+		byte b = 127;
+>>>>>>> 97792613ae03b0a40c74cf0393b7c94a22627496
 		short s = 32767;
 		int i = 2_147_483_647;
 		long l = 9_223_372_036_854_775_807L;

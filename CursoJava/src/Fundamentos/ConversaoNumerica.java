@@ -9,7 +9,11 @@ public class ConversaoNumerica {
 		int i1 = (int) 7.9;
 		System.out.println(i1);
 		
+<<<<<<< HEAD
 		//Exemplo 3 COnversão Implícita
+=======
+		//Exemplo 3 COnverão Implícita
+>>>>>>> 97792613ae03b0a40c74cf0393b7c94a22627496
 		int i2 = 'a';
 		System.out.println(i2);
 		

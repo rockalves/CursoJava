@@ -1,0 +1,84 @@
+Busca Linear Indexada é uma otimização da busca linear simples. Quando encontra um valor maior que o valor alvo, 
+o algoritimo para identificando que o valor não se encontra no vetor. Se encontra o valor alvo ele retorna o indice da posição no vetor.
+
+Busca por Interpolação pode ser tão lenta quanto a busca sequencial, já a bbusca binaria jamais será inferior a busca sequencial.
+
+Bubblesort, tambem conhecido como flutuação ou bolha.
+
+Selection Sort, alto consumo computacional.
+
+Selection Sort e Bubblesort estão entre os piores algoritimos de ordenação existentes.
+
+Insertion Sort não é um algoritimo inerentemente recursivo.
+
+Para se ganhar desempenho algumas soluções recursivas apresentam melhor desempenho em detrimento de soluções iterativas.
+
+QuickSort tambem é conhecido como classificação por troca de partição
+
+Quicksort usa a metodologia dividir para conquistar.
+
+MergSort, chama-se a si mesmo recursivamente com novas instancias menoresdo arranjo a ser ordenado.
+
+Busca em largura utiliza uma estrutura de Fila
+
+Busca em profundidade utiliza uma estrutura de Pilha
+
+em cada recursao do mergesort cria-se um vetor temporario com os dados já ordenados
+
+shellsort considerado como o mais eficiente dentro dos algoritimos de complexibilidade quadratica, fazendo uso mais refinado do insertion sort. Utiliza o GAP 
+para saber em quantas partes menores dividir o gruop de elementos
+
+Dentre os algoritimos de ordenação estudados, 4 de complexibilidade quadratida e 2 que utilizam metodologia dividir para conquistar.
+
+ShellSort, apesar de fazer varias chamadas do metodo insertionsort, o shellsort apresenta vantagem de desempenho em realção ao outro, dependendo da
+forma como os dados estão organizados.
+
+Quicksort, algoritimo mais usado no mundo, tecnica que se assemelha ao quicksort é a arvore de busca binaria.
+
+Quicksort utiliza um pivo, segue a metodologia dividir para conquistar, divide o vetor em 3.
+
+selectionsort encontra o menor valor para ocupar a primeira posição do vetor e em seguida repete o processo para achar o segundo menor e este racioncinio
+se estende até o final do vetor
+
+shellsort, o mais eficiente dentro dos de complexibilidade quadratica, divide o vetor em vetores menores e aplica o metodo insertion sort neles.
+
+Dijkstra, algoritimo para determinar o caminho mais curto entre dois pontos. Pode ser utilizado para roteamento de pacotes de internet.
+
+Insertion sort, não percorre os dois laços de repetição por inteiro, apenas se não encontrar o valor.
+
+Algoritimo de complexidade quadratica são os mais lentos, significa que se o arranjo tem N elementos os algoritimos realizarão cerca de N ao quadrado comparações
+
+O grau de saida de um vertice pode ser encontrato contando a qtd de numeros 1 na sua linha
+
+busca por interpolação, vetor precisa estar ordenado e distribuido de forma uniforme
+
+busca em arvore binaria, deve ser feito apartir de um vetor ordenado ou não
+
+busca em arvore é mais rapida que busca binaria, porque a busca em arvore ao inves de dividir o vetor, ignora uma das subarvores para continuar a pesquisa
+
+busca sequencial forma mais simples de busca, faz busca em cada posiçãodo vetor ou lista e faz a comparação pelo elemento que esta sendo buscado, retorna o indice
+quando enconta o parametro procurado.
+
+Formula de interpolação: meio = menor+(maior-menor)*(arg-vec[menor])/vec[maior]-vec[menor]
+
+busca binaria consiste em dvidir o vetor no meio se o meio não for o valor buscado e se o mio for maior que o valor buscado divide a parte menor do vetor novamente
+caso o meio seja menor que o valor buscado divide a parte maior do vetor e assim por diante. Não pode ser aplicado em lista dinamica.
+
+Busca binaria deve ter os dados ordenados.
+
+Selectionsort, algoritimo de complexibilidade quadratica, baixo desempenho, se tiver dados ordenados ou parcialmente ordenados o tempo de busca é o mesmo
+
+selection sort e bubblesort, simpels implementação e alto consumo computacional
+
+bubblesort troca a cada par de valor invertido, selectionsort troca quando encontra o valor menor para a posição em processamento
+
+situação ideal para bubblesort, vetores pequenos, independentemente da ordenação.
+
+bubblesort alto custo computacional.
+
+MergSort dividir para conquistar, implementação complexa, melhor desempenho e baixo tempo de execução. Não apropriado para um vetor muito grande. Consumo excessivo de memoria.
+
+Dividir para conquistar sugere que um problema complexo possa ser dividido em problemas menores até que se encontre um simples o suficiente para ser resolvido
+
+MergSort, usa recursividade e consome muita memoria
+
